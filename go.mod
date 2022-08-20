@@ -1,4 +1,4 @@
-module github.com/k3s-io/helm-controller
+module github.com/chefmtt/helm-controller-riscv64
 
 go 1.13
 
