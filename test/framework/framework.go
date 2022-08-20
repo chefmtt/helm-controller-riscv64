@@ -7,9 +7,9 @@ import (
 
 	"k8s.io/client-go/util/retry"
 
-	helmapiv1 "github.com/k3s-io/helm-controller/pkg/apis/helm.cattle.io/v1"
-	helmcln "github.com/k3s-io/helm-controller/pkg/generated/clientset/versioned"
-	"github.com/k3s-io/helm-controller/pkg/helm"
+	helmapiv1 "github.com/cheefmtt/helm-controller-riscv64/pkg/apis/helm.cattle.io/v1"
+	helmcln "github.com/chefmtt/helm-controller-riscv64/pkg/generated/clientset/versioned"
+	"github.com/chefmtt/helm-controller-riscv64/pkg/helm"
 	"github.com/onsi/ginkgo"
 	"github.com/rancher/wrangler/pkg/condition"
 	"github.com/rancher/wrangler/pkg/crd"
